@@ -1,7 +1,7 @@
 # json2csv
 
 ## Overview
-I got multiple projects where the customers needed CSV rather than JSON. My existing my microservice is in RESTful and to accommodate the CSV requirement I created this Golang based JSON to CSV tool. Because this tool is intended for more than one customer and will have to use different endpoints with different CSV output I have added a rule file or template mechanism to handle output formatting.
+I got multiple projects where the customers needed CSV rather than JSON. My existing my microservice is in RESTful and to accommodate the CSV requirement I created this Golang based JSON to CSV tool. Because this tool is intended for more than one customer and will have to use different endpoints with different CSV output, I have added a rule file or template mechanism to handle output formatting.
 
 ```json
 [
