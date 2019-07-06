@@ -1,0 +1,56 @@
+[
+    {
+        "ruleName": "measured-value",
+        "ioMapping": [
+            {
+                "incoming": "dateTime",
+                "outgoing": "DateTime"
+            },
+            {
+                "incoming": "stationName",
+                "outgoing": "StationName"
+            },
+            {
+                "incoming": "stationCode",
+                "outgoing": "StationCode"
+            },
+            {
+                "incoming": "equipmentName",
+                "outgoing": "EquipmentName"
+            },
+            {
+                "incoming": "current",
+                "outgoing": "Current"
+            },
+            {
+                "incoming": "power", 
+                "outgoing": "Power"
+            },
+            {
+                "incoming": "reactivePower", 
+                "outgoing": "ReactivePower"
+            },
+            {
+                "incoming": "voltageReading", 
+                "outgoing": "VoltageReading"
+            },
+            {
+                "incoming": "voltageType",
+                "outgoing": "VoltageType"
+            },
+            {
+                "incoming": "utilisation",
+                "outgoing": "Utilisation"
+            },
+            {
+                "incoming": "substationType",
+                "outgoing": "SubstationType"
+            },
+            {
+                "incoming": "feederType",
+                "outgoing": "FeederType"
+            }
+        ],
+        "targetUrlToken": ""
+    }    
+]
